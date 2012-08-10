@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE0DFD6F15D479F100770C85 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0DFD6E15D479F100770C85 /* ScriptingBridge.framework */; };
+		AE5CD6FC15D49B6F00C4812D /* music.icns in Resources */ = {isa = PBXBuildFile; fileRef = AE5CD6FB15D49B6F00C4812D /* music.icns */; };
 		AE7FF15115D4282600AC8391 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7FF15015D4282600AC8391 /* Cocoa.framework */; };
 		AE7FF15B15D4282600AC8391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE7FF15915D4282600AC8391 /* InfoPlist.strings */; };
 		AE7FF15D15D4282600AC8391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7FF15C15D4282600AC8391 /* main.m */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		AE0DFD6E15D479F100770C85 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 		AE0DFD7315D4829F00770C85 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		AE5CD6FB15D49B6F00C4812D /* music.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = music.icns; sourceTree = "<group>"; };
 		AE7FF14C15D4282600AC8391 /* notificate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notificate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7FF15015D4282600AC8391 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AE7FF15315D4282600AC8391 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -81,6 +83,7 @@
 		AE7FF14115D4282600AC8391 = {
 			isa = PBXGroup;
 			children = (
+				AE5CD6FB15D49B6F00C4812D /* music.icns */,
 				AE7FF15615D4282600AC8391 /* notificate */,
 				AE7FF17315D4282600AC8391 /* notificateTests */,
 				AE7FF14F15D4282600AC8391 /* Frameworks */,
@@ -237,6 +240,7 @@
 				AE7FF16115D4282600AC8391 /* Credits.rtf in Resources */,
 				AE7FF16715D4282600AC8391 /* MainMenu.xib in Resources */,
 				AE7FF18515D42B8A00AC8391 /* cdicon.png in Resources */,
+				AE5CD6FC15D49B6F00C4812D /* music.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
