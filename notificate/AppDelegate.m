@@ -62,9 +62,14 @@
     
     
     NSUserNotification *ncenter = [[NSUserNotification alloc] init];
-    ncenter.title = [NSString stringWithFormat:@"%@", [information objectForKey:@"Name"] ];
-    ncenter.subtitle =  [information objectForKey:@"Artist"];
-    ncenter.informativeText = [NSString stringWithFormat:@"%@",  [information objectForKey:@"Album"]];
+    if(![information objectForKey:@"Name"])
+        ncenter.title = @"Untitled Track";
+    else
+        ncenter.title = [NSString stringWithFormat:@"%@", [information objectForKey:@"Name"] ];
+    if([information objectForKey:@"Artist"])
+        ncenter.subtitle =  [information objectForKey:@"Artist"];
+    if([information objectForKey:@"Album"])
+        ncenter.informativeText = [NSString stringWithFormat:@"%@",  [information objectForKey:@"Album"]];
 //    ncenter.soundName = NSUserNotificationDefaultSoundName;
     
     
